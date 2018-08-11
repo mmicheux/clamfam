@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+body{
+	display: flex;
+    height: 100vh;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+img{
+	width: 100%;
+	max-width: 200px;
+}
+.main{
+	margin: 0;
+
+	color:blue;
+	font-size: 70px;
+	font-family: 'Permanent Marker', serif;
+}
+.stonewall{
+	max-width: 150px;
+}

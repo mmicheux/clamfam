@@ -13,31 +13,12 @@ let names = [
 	"shanley", "mary",
 	"traci"
 ];
-let colors = ['#71abdd','#6bcade','#82ccb5','#b6d884','#fff68f','#fdcd79',
-'#f9b489','#f497aa','#dd86b9','#9977b4'];
-let canvasHeight = document.body.offsetHeight;
+let colors = ['#71abdd','#6bcade','#82ccb5','#b6d884','#fff68f','#fdcd79','#f9b489','#f497aa','#dd86b9','#9977b4'];
+document.getElementById('names').innerText = 
+	names.sort().join('') + names.sort().join('') + names.sort().join('') 
+	+ names.sort().join('') + names.sort().join('')+ names.sort().join('') 
+	+ names.sort().join('') + names.sort().join('') + names.sort().join('')
+	+ names.sort().join('') + names.sort().join('') + names.sort().join('') 
+	+ names.sort().join('');
 
-
-let namesDiv = document.getElementById('names');
-namesDiv.innerText = names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('')
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('')
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('') 
-					+ names.sort().join('');
-
-let canvases = colors.forEach(color => {
-	let colorEl = document.createElement('div');
-	colorEl.setAttribute('id', color);
-	colorEl.classList.add('rainbow');
-	document.getElementById('background').appendChild(colorEl);
-	// colorEl.style.height = canvasHeight / colors.length + "px";
-	colorEl.style.backgroundColor = color;
-});
+colors.forEach( color => document.getElementById('background').innerHTML += `<div class="rainbow" id="${color}" style="background-color:${color};"></div>` );

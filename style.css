@@ -1,22 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+html{
+	overflow:hidden;
+}
 body{
 	display: flex;
     height: 100vh;
     justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+}
+#names{
+	word-wrap: break-word;
+	user-select:none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: #eaeaea;
+	line-height: .7;
+	font-size: 50px;
+	font-family: 'Permanent Marker', serif;
+	z-index: 1;
+	mix-blend-mode: color-burn;
+
+}
+@media screen and (min-width: 768px){
+	#names{
+		font-size:70px;
+	}
+}
+#background{
+	position: absolute;
+    top: -10px;
+    left: -10px;
+    bottom: 0;
+    right: -15px;
 }
 img{
-	width: 100%;
-	max-width: 200px;
+	width: 50vw;    
+	max-width: 400px;
+    min-width: 200px;
+    z-index: 2;
 }
 .main{
-	margin: 0;
+	z-index: 2;
 
+}
+.text{
+	margin: 0;
 	color:blue;
 	font-size: 70px;
 	font-family: 'Permanent Marker', serif;
 }
 .stonewall{
 	max-width: 150px;
+}
+.rainbow{
+	width:100%;
+	opacity: .7;
+	height: 10.5vh;
 }

@@ -1,0 +1,92 @@
+[
+	{
+		"name" : "Catie",
+		"number" : 31,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Fire-proof",
+		"weakness" : "N/A",
+		"guiltyPleasure" : "York Peppermint Patties",
+		"funFact" : "I am the Lorax, I speak for the trees."
+	},
+	{
+		"name" : "Mary",
+		"number" : "The Original 23",
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Throwing weekend-long parties",
+		"weakness" : "Ice Cream",
+		"guiltyPleasure" : "Every RomCom",
+		"funFact" : "The Only Person who has ever moved from RVA to Iowa City probably"
+	},
+	{
+		"name" : "Erin",
+		"number" : 37,
+		"pronouns" : "They/Them",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Being a bottomless pit",
+		"weakness" : "Crusty old hunting dogs, bonus points if they are missing a leg or an eye",
+		"guiltyPleasure" : "Taco Bell",
+		"funFact" : "Fluent in American Sign Language"
+	},
+	{
+		"name" : "Leslie",
+		"number" : 2,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Cat hypnotizer, master organizer",
+		"weakness" : "Punctuality",
+		"guiltyPleasure" : "Sleeping for 36 straight hours",
+		"funFact" : "I'm adopted."
+	},
+	{
+		"name" : "Lindsey",
+		"number" : 1,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Spring Kickball 2018",
+		"superpower" : "Master Builder",
+		"weakness" : "Lunchables",
+		"guiltyPleasure" : "MTV",
+		"funFact" : "Personally victimized by Regina George"
+	},
+	{
+		"name" : "Miña",
+		"number" : 13,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Spreadsheets",
+		"weakness" : "No internet connection",
+		"guiltyPleasure" : "Is butter a carb?",
+		"funFact" : "This is not a tan"
+	},
+	{
+		"name" : "Molly",
+		"number" : 23,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Spring Kickball 2018",
+		"superpower" : "Eerily good timing when waiting in line",
+		"weakness" : "I cry when feeling any strong emotion",
+		"guiltyPleasure" : "YouTube videos",
+		"funFact" : "I can say my ABC's backwards in less than 6 seconds"
+	},
+	{
+		"name" : "Steph",
+		"number" : 12,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Can drive a stick shift in flip flops or heels",
+		"weakness" : "Ice Cream",
+		"guiltyPleasure" : "Supernatural Documentaries",
+		"funFact" : "Used to do stand up comedy"
+	},
+	{
+		"name" : "Tricia",
+		"number" : 19,
+		"pronouns" : "She/Her",
+		"stonewallSince" : "Winter Dodgeball 2018",
+		"superpower" : "Ability to guess the time within 5 minutes",
+		"weakness" : "Beer",
+		"guiltyPleasure" : "Justin Bieber",
+		"funFact" : "Can't float in water"
+	}
+]

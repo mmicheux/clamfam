@@ -1,2 +1,2 @@
 to update page, run this command in terminal from /clamfam: 
-aws s3 sync . s3://www.clamfam.com --exclude '*.txt' --exclude '.git/*' --exclude '*.md' --exclude '.DS_Store'
+aws s3 sync . s3://www.clamfam.com --exclude '*.txt' --exclude '.git/*' --exclude '*.md' --exclude '.DS_Store' --exclude 'node_modules/*'

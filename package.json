@@ -1,0 +1,23 @@
+{
+  "name": "clamfam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmicheux/clamfam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmicheux/clamfam/issues"
+  },
+  "homepage": "https://github.com/mmicheux/clamfam#readme",
+  "dependencies": {
+    "eslint": "^5.4.0",
+    "jshint": "^2.9.6"
+  }
+}

@@ -13,7 +13,7 @@ let names = [
 	"shanley", "mary",
 	"kyle","patrick", 
 	"amanda","ayumi", 
-	"tom", "nina", 
+	"tom", "nina", "miña",
 	"heather", "justin", 
 	"betsy", "michelle",
 	"heather", "charlie",
